@@ -1,7 +1,7 @@
 name: CI PIPELINE
 on:
   push:
-    branch: [main]
+    branches: [main]
 jobs:
   build:
     runs-on: ubuntu-latest
